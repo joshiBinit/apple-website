@@ -1,11 +1,8 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import React from "react";
-import PropTypes from "prop-types";
-import {
-  Html,
-  OrbitControls,
-  PerspectiveCamera,
-  View,
-} from "@react-three/drei";
+
+import { OrbitControls, PerspectiveCamera, View } from "@react-three/drei";
 
 import * as THREE from "three";
 import Lights from "./Lights";
